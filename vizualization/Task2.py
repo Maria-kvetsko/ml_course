@@ -21,9 +21,9 @@ rcParams["figure.figsize"] = 11, 8
 
 df = pd.read_csv('vizualization/mlbootcamp5_train.csv')
 
-print(df.groupby('gender')['alco'].sum())
+print(df.groupby('gender')['alco'].mean())
 '''
 gender
-1    1161 жінки
-2    2603 чоловіки
+1    0.025500
+2    0.106375
 '''
